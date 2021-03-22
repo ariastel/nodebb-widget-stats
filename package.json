@@ -1,0 +1,32 @@
+{
+  "name": "@ariastel/nodebb-widget-stats",
+  "version": "0.0.1",
+  "description": "NodeBB Widget that displays a forum stats",
+  "main": "library.js",
+  "repository": "git://github.com/ariastel/nodebb-widget-stats.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodebb",
+    "widget"
+  ],
+  "homepage": "https://github.com/ariastel/nodebb-widget-stats#readme",
+  "bugs": {
+    "url": "https://github.com/ariastel/nodebb-widget-stats/issues"
+  },
+  "author": {
+    "name": "Antosik",
+    "email": "grig_anton96@mail.ru"
+  },
+  "contributors": [
+    "Ariastel Team <ariastel@iamantosik.me> (https://github.com/ariastel)"
+  ],
+  "license": "MIT",
+  "nbbpm": {
+    "compatibility": "^1.16.x"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "nodebb-widget-stats",
+  "name": "NodeBB Stats Widget",
+  "description": "NodeBB Widget that displays a forum stats",
+  "url": "https://github.com/ariastel/nodebb-widget-stats",
+  "main": "./library.js",
+  "hooks": [
+    {
+      "hook": "static:app.load",
+      "method": "init"
+    },
+    {
+      "hook": "filter:widgets.getWidgets",
+      "method": "defineWidgets"
+    },
+    {
+      "hook": "filter:widget.render:aa_stats",
+      "method": "renderStatsWidget"
+    }
+  ],
+  "less": [
+    "less/stats.less"
+  ],
+  "templates": "templates",
+  "languages": "languages"
+}
